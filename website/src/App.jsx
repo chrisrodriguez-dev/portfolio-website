@@ -12,9 +12,9 @@ function App() {
         <a 
         href="https://www.linkedin.com/in/chris-rodriguez0" 
         target="_blank"
-        className="inline-block px-6 py-2 bg-blue-600 text-black font-semibold rounded hover:bg-black hover:text-white transition"
+        className="inline-block px-6 py-2 bg-black text-gray-100 font-semibold rounded hover:bg-black hover:text-blue-400 transition"
         >
-          Visist my LinkedIn
+          Visit my LinkedIn
         </a>
        </div>
     </>
