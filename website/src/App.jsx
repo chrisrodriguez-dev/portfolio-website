@@ -1,4 +1,7 @@
 import './App.css'
+import Card from "./Card.jsx"
+import Header from "./Header.jsx"
+import Navbar from "./Navbar.jsx"
 
 function App() {
 
@@ -6,9 +9,7 @@ function App() {
   return (
     <>
        <div>
-        <p>This will be my portfolio website</p>
-        <p>It is currently a work in progress</p>
-        <Text display = "My name is Christopher M. Rodriguez"/>
+        <Header/>
         <a 
         href="https://www.linkedin.com/in/chris-rodriguez0" 
         target="_blank"
@@ -16,7 +17,10 @@ function App() {
         >
           Visit my LinkedIn
         </a>
+        <Navbar/>
        </div>
+       <Card/>
+       
     </>
   )
 }
