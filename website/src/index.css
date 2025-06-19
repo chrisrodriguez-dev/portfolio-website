@@ -98,7 +98,7 @@ button:focus-visible {
 }
 .nav-links{
   list-style: none;
-  color: black;
+  color: rgb(241, 121, 121);
   display: flex;
   justify-content: flex-start; /* Aligns links to the left */
   gap: 2rem;
