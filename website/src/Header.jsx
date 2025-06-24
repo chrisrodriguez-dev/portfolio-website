@@ -1,12 +1,14 @@
-
+import './index.css'
 function Header(){
     return(
         <>
-             <h1 className="header">Christopher M. Rodriguez</h1>
-
+        <h1>Work</h1>
+        <h2>Resume</h2>\
+        
         </>
-       
-    );
+        
+    )
+
 }
 
 export default Header

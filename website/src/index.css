@@ -6,8 +6,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(12, 0, 239, 0.87);
-  background-color: #ffffffe1;
+  color: rgba(16, 196, 3, 0.87);
+  background-color: #000000e1;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -66,7 +66,7 @@ button:focus-visible {
     color: #747bff;
   }
   button {
-    background-color: #f9f9f9;
+    background-color: #000000;
   }
 }
 
@@ -82,27 +82,9 @@ button:focus-visible {
   position: fixed;       /* Keeps the header at the top even when scrolling */
   top: 0;                /* Aligns it to the top */
   width: 60%;           
-  color: rgba(30, 0, 255, 0.691);
+  color: rgba(0, 190, 25, 0.691);
   font-family: "Times New Roman", sans-serif;
   text-align: center;
   padding: 1rem;
 }
 
-.navbar{
-  background-color: rgb(0, 0, 0);
-  color:black;
-  padding: 1rem;
-  position: fixed;
-  width: 100%;
-  top: 0;
-}
-.nav-links{
-  list-style: none;
-  color: rgb(241, 121, 121);
-  display: flex;
-  justify-content: flex-start; /* Aligns links to the left */
-  gap: 2rem;
-  margin: 0;
-  padding: 0;
-
-}
