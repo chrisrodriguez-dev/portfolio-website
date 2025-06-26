@@ -5,13 +5,13 @@ function Summary(){
        <div>
         <p className="summary">
             <Typewriter
-                words={['Hardworking and passionate computer science student.']}
+                words={['"Dedication makes dreams come true". - Kobe Bryant']}
                 loop={1}
                 cursor
                 cursorStyle="!"
-                typeSpeed={90}       // adjust for faster typing
+                typeSpeed={55}       // adjust for faster typing
                 deleteSpeed={50}
-                delaySpeed={1000}
+                delaySpeed={100}
             />
         </p>
        </div>
