@@ -1,18 +1,27 @@
 @import "tailwindcss";
 
 :root {
-  font-family: "Helvetica", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
   color: rgba(16, 196, 3, 0.87);
-  background-color: #282828f8;
+  background-color: #111111f8;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  cursor: crosshair;
+    margin: 0;
+  background-color: #0e0e0e; /* base dark background */
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 20px 20px;
+  color: #ccc;
+  
 }
 
 a {
@@ -79,17 +88,25 @@ button:focus-visible {
 }
 
 .header{
+
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%; /* use full width for consistency */
-   /* Optional: background so text doesn't overlap */
-  color: #00ff88;
-  font-family: "Helvetica", sans-serif;
-  text-align: center;
- 
+  width: 100%;
+  z-index: 1000;
+
+  display: flex;
+  justify-content: space-between; /* space between left and right items */
+  align-items: center;
+
+  background-color: #0e0e0e; /* optional background for readability */
+  padding: 1rem 2rem;
+
+  font-family: system-ui, sans-serif;
   font-size: 1rem;
-  z-index: 1000; /* ensures it stays above other elements */
+  color: 	#00ff5e;
+
+
    /* optional: adds a shadow */
 }
 
@@ -113,17 +130,40 @@ button:focus-visible {
   gap: 2rem;
   margin: 0;
   padding: 0;
-  font-family: "Helvetica", sans-serif;
+  font-family: system-ui, sans-serif;
   font-size: 1.2rem;
 }
 
 .summary{
   font-size: 1.2rem;
-  color: #00ff88;
+  color: 	#6f00ff;
   text-align: center;
   max-width: 700px;
   margin: 2rem auto;
-  font-family: "Times New Roman", sans-serif;
+  font-family: system-ui, sans-serif;
 
+}
+
+.intern-button {
+   background-color: purple;
+  color: 	#00ff5e;
+  font-weight: bold;
+  padding: 8px 16px;
+  font-size: 1rem;
+  border-radius: 12px;
+  text-decoration: none;
+  box-shadow: 0 0 12px #00ff88;
+  transition: all 0.3s ease;
+  display: inline-block;
+  white-space: nowrap;
+}
+.intern-button:hover {
+  background-color: #1c1c1c;
+  color: #00ff88;
+  box-shadow: 0 0 15px #a066ff;
+}
+
+body {
+  padding-top: 100px;
 }
 
