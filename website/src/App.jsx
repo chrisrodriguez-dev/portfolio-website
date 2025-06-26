@@ -1,21 +1,16 @@
 import './App.css'
 import Header from './Header.jsx'
+import Summary from './Summary.jsx'
 
 
 function App() {
-
-
   return (
     <>
-      <h1>Hi my name is Christopher Rodriguez</h1>
-       <ul>
-        <li>skills</li>
-        <li>Experience</li>
-        <li>Projects</li>
-        <Header></Header>
-       </ul>
+      <Summary/>
+      <h1 className="name-animation">Hi my name is Christopher Rodriguez</h1>
+      <Header />
     </>
-  )
+  );
 }
 
 
