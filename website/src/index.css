@@ -104,7 +104,7 @@ button:focus-visible {
 
   font-family: system-ui, sans-serif;
   font-size: 1rem;
-  color: 	#00ff5e;
+  color: 	#2323FF;
 
 
    /* optional: adds a shadow */
@@ -135,8 +135,8 @@ button:focus-visible {
 }
 
 .summary{
-  font-size: 1.2rem;
-  color: 	#6f00ff;
+  font-size: 1.5rem;
+  color: 	#2323FF;
   text-align: center;
   max-width: 700px;
   margin: 2rem auto;
@@ -145,14 +145,14 @@ button:focus-visible {
 }
 
 .intern-button {
-   background-color: purple;
-  color: 	#00ff5e;
+   background-color:#2323FF;
+  color: 	rgb(0, 0, 0);
   font-weight: bold;
   padding: 8px 16px;
   font-size: 1rem;
   border-radius: 12px;
   text-decoration: none;
-  box-shadow: 0 0 12px #00ff88;
+  box-shadow: 0 0 12px #515151;
   transition: all 0.3s ease;
   display: inline-block;
   white-space: nowrap;
@@ -160,10 +160,21 @@ button:focus-visible {
 .intern-button:hover {
   background-color: #1c1c1c;
   color: #00ff88;
-  box-shadow: 0 0 15px #a066ff;
+  box-shadow: 0 0 15px #2323FF;
 }
 
 body {
   padding-top: 100px;
+}
+.highlight {
+  color: #2323FF;
+}
+h1::after {
+  content: "";
+  display: block;
+  width: 100px;
+  margin: 1rem auto;
+  height: 2px;
+  background: linear-gradient(to right, #2323FF, #00ff88);
 }
 

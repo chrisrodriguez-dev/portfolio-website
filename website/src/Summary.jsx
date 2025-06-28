@@ -5,7 +5,7 @@ function Summary(){
        <div>
         <p className="summary">
             <Typewriter
-                words={['"Dedication makes dreams come true". - Kobe Bryant']}
+                words={['Driven computer science student passionate about AI, software engineering, and solving problems with persistence and purpose']}
                 loop={1}
                 cursor
                 cursorStyle="!"

@@ -1,0 +1,80 @@
+.code-intro {
+  background-color: #000000;
+  color: #3e3e3e;
+  padding: 1.5rem;
+  border-radius: 12px;
+  font-family: 'Fira Code', monospace;
+  font-size: 1rem;
+  width: fit-content;
+  margin: 2rem auto;
+  box-shadow: 0 0 20px#2323FF;
+}
+
+.code-intro pre {
+  margin: 0;
+  overflow-x: auto;
+  white-space: pre-wrap;
+}
+
+.code-intro code {
+  color: #2323FF;
+  font-weight: 500;
+}
+
+/* Optional: Custom syntax colors */
+.code-intro code::selection {
+  background: #4b0082;
+}
+.cursor {
+  animation: blink 1s step-end infinite;
+  color: #00ff88;
+}
+@keyframes blink {
+  50% { opacity: 0; }
+}
+/* Base terminal look */
+.terminal {
+  background: #0d0d0d;
+  border-radius: 10px;
+  box-shadow: 0 0 20px ;
+  width: 90%;
+  max-width: 800px;
+  margin: 2rem auto;
+  font-family: 'Fira Code', monospace;
+  color: #fff;
+  overflow: hidden;
+}
+
+.terminal-header {
+  display: flex;
+  gap: 0.4rem;
+  padding: 0.5rem;
+  background: #1e1e1e;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.red    { background: #ff605c; }
+.yellow { background: #ffbd44; }
+.green  { background: #00ca56; }
+
+.terminal-body {
+  padding: 1.2rem 1.5rem;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  white-space: pre-wrap;
+}
+
+/* Syntax Highlighting */
+.keyword   { color: #c792ea; }
+.variable  { color: #82aaff; }
+.property  { color: #ffcb6b; }
+.string    { color: #c3e88d; }
+.number    { color: #f78c6c; }
+.boolean   { color: #ff5370; }
+.prompt    { color: #00ff88; }

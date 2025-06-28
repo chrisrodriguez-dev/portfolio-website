@@ -6,7 +6,7 @@ function Header(){
               href="mailto:cmr82@njit.edu?subject=Internship Inquiry"
               className="intern-button"
             >
-                Need and Intern?
+                Need an Intern?
             </a>
             <ul className="nav-links">
                 <li>Resume</li>
