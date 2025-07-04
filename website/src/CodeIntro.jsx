@@ -10,13 +10,8 @@ function CodeIntro() {
   </div>
   <pre className="terminal-body">
     <code>
-      <span className="prompt">&gt; </span>
-      <span className="keyword">const</span> <span className="variable">Christopher_Rodriguez</span> = {'{'}{'\n'}
-      &nbsp;&nbsp;<span className="property">_id</span>: <span className="string">"cmr82@njit.edu"</span>,{'\n'}
-      &nbsp;&nbsp;<span className="property">name</span>: <span className="string">"Christopher Rodriguez"</span>,{'\n'}
-      &nbsp;&nbsp;<span className="property">languages</span>: [<span className="string">"Python"</span>, <span className="string">"C++"</span>, <span className="string">"Java"</span>],{'\n'}
-      &nbsp;&nbsp;<span className="property">interests</span>: [<span className="string">"AI"</span>, <span className="string">"Machine Learning"</span>]{'\n'}
-      {'};'}
+      I am a compputer science student at NJIT and I am interested in Software Engineering and Machine Learning.
+      I enjoy engineering solutions that make an impact.
     </code>
   </pre>
 </div>
