@@ -9,9 +9,21 @@ function Header(){
                 Need an Intern?
             </a>
             <ul className="nav-links">
-                <li>Resume</li>
-                <li>LinkedIn</li>
-                <li>GitHub</li>
+                <li>
+                    <a href="file:///Users/chris/Downloads/crodriguez.resume%20(2).pdf" target="_blank">
+                    Resume
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/chris-rodriguez0/">
+                    LinkedIn
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/chrisrodriguez-dev">
+                    GitHub
+                    </a>
+                </li>
                 <li>Email</li>
             </ul>
         </header>
