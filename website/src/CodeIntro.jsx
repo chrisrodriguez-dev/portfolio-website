@@ -10,7 +10,7 @@ function CodeIntro() {
   </div>
   <pre className="terminal-body">
     <code>
-      I am a compputer science student at NJIT and I am interested in Software Engineering and Machine Learning.
+      I am a computer science student at NJIT and I am interested in Software Engineering and Machine Learning.
       I enjoy engineering solutions that make an impact.
     </code>
   </pre>
